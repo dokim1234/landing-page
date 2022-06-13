@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Tiro+Telugu&display=swap');
+
+body {
+  background: rgb(0, 0, 0);
+  margin: 0;
+  font-family:'Tiro  Telugu', serif;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#logo {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 48px;
+}
+
+.profile-image {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 8px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.middle {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+#img1 {
+  width: 720px;
+  border-radius: 60px;
+}
+
+.hero .content{
+  background:rgb(53, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 100px;
+  padding: 100px 100px 20px;
+  flex-wrap: wrap;
+  font-size: 24px;
+}
+
+.hero .sign-up-box{
+  display: flex;
+  font-size: 18px;
+  color: white;
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  width: auto;
+  justify-content: space-between;
+  gap: 50px 200px;
+}
+
+
+
