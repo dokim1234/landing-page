@@ -82,25 +82,35 @@ a {
   gap: 50px 200px;
 }
 
-.info .title {
+.info-title {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  padding: 100px 100px 0px;
+  padding: 100px;
   gap: 100px;
 }
 
-.info .content {
+.info-pics {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  font-size: 16px;
-  text-align: center;
-  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 30px;
 }
 
+.info-text {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  gap: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
 
+.animes {
+  width: 200px;
+}
 
 #img2 {
   width: 200px;
