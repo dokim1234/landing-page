@@ -25,7 +25,14 @@ body {
   height: 48px;
 }
 
-button {
+.profileimg {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.notifications, .signup {
   border: none;
   border-radius: 8px;
   background: rgb(255, 255, 255);
@@ -118,4 +125,71 @@ a {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.quote-section {
+  background: rgb(255, 255, 255);
+  
+}
+
+.quote {
+  color: black;
+  font-size: 36px;
+  font-style: italic;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-source {
+  background: white;
+  color: black;  
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  left: -700px;
+  padding-bottom: 200px;
+}
+
+.support-section {
+  background:rgb(0, 0, 0);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:  100px;
+  padding: 100px;
+  flex-wrap: wrap;
+  font-size: 24px;
+}
+
+.support {
+  display: flex;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background: rgb(96, 125, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  
+}
+
+.button2 {
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(96, 125, 255);
+  padding: 8px 24px; 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
