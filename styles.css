@@ -7,11 +7,43 @@ body {
   color: white;
 }
 
+
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
+
+
+
+
+.Trending {
+  transition: transform .1s ease-in-out;
+}
+
+.Most-Watched {
+  transition: transform .1s ease-in-out;
+}
+
+.Random {
+  transition: transform .1s ease-in-out;
+}
+
+.Trending:hover {
+  transform: scale(1.5)
+}
+
+.Most-Watched:hover {
+  transform: scale(1.5)
+}
+
+.Random:hover {
+  transform: scale(1.5)
+}
+
+
+
 
 #logo {
   font-family: 'Rubik Glitch', cursive;
@@ -43,6 +75,7 @@ body {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  height: 100px;
 }
 
 .middle {
